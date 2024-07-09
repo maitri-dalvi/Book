@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
-    apiKey: process.env.GOOGLE_API,
+    apiKey: "process.env.GOOGLE_API",
     authDomain: "book-app-ac33b.firebaseapp.com",
     projectId: "book-app-ac33b",
     storageBucket: "book-app-ac33b.appspot.com",
@@ -11,3 +11,5 @@ const firebaseConfig = {
 };
 
 export const app = initializeApp(firebaseConfig);
+
+
